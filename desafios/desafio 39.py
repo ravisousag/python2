@@ -1,5 +1,7 @@
+from datetime import date
+atual = date.today().year
 nasc = int(input('Insira seu ano de nascimento: '))
-idade = 2021-nasc
+idade = atual-nasc
 
 if idade<17:
     valid = 18-idade
